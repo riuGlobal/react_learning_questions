@@ -1,0 +1,28 @@
+** Render function. How it works
+* takes JSX as first input and renders it on the DOM node passed as the second argument. 
+
+**JSX is declarative meaning: 
+* Specifies what to render and not how to render
+
+** Does React come with HTML components
+* Yes
+
+** html tag convention, Uppercase or lower case. 
+* lowercase. capitalizing it will fail. 
+
+** Is there property validation by default?
+*No, this is called silent beahaviour. Unknown properties wont throw error. 
+
+** Encapsulation with html. 
+* Used within return. 
+
+** Recognize namespacing
+*When using MyComponent.First this is namespaced. 
+
+**Does JSX let us embbed JavaScript
+*Yes
+
+** Identify array mapping and object mapping. 
+* 
+
+

@@ -1,0 +1,57 @@
+
+
+** Choose the best description for how React does Event-handling
+* Its declarative and the attachment is described in the description of the ui
+- Its declarative and the attachment is done through steps
+- Its imperative and the attachment is described in the description of the ui
+- Its imperative and the attachment is done through steps
+
+
+
+**  ES2015 is a way to define a component. Which of the following best describes it.
+* Define a class and extend the base react Component class
+- Define a componet by setting the mode  attribute on the class.
+
+**Will using createClass create a class with its context autobinded
+*Yes
+-No
+
+
+** When using an inline event handler, the use of an additional named function is avoided for simplicity?
+*True
+-False
+
+** Theoretical question. Does React attach event handlers to the actual elements of the Browser DOM.
+- Yes
+* No 
+
+**Syntetic events is a wrapper for native event instances. What are its pourposes?
+* Consistent event interface and Information for propagation 
+- Provide a simple way to attach them to the Browser Dom
+
+
+
+** When using Synthetic events there might be a problem with performance because of increasing the number of calls to the garbage collector. Why is this a problem
+
+* Javascript cant run when the garbage colector is running
+- HTML response might be unexpected
+- HTML will respond with error 404
+- Javascript will respond with error 405
+
+** Event Pooling. Helps solving problem with garbage colector problem but properties are cleared when the synthetic event wrapper is moved back to the pool. Explain a possible issue.
+
+* Trying to acces the value of an event after the handler has finished running will fail since this value was on the wrapper that after the event handler has run will have been cleared. 
+
+** A solution for the performance problem of Synthetic events is _____?
+
+* Event Pooling
+- Inline Event Handlers
+- Browser dom event handlers
+- Imperative event handling with react. 
+
+** Which of the following is a drawback of using Event pooling?
+
+* Properties are cleared of the synthetic event and trying to access them afterwards will result in failure
+- Misleading warnings are logged every time Event pooling is used
+- Event pooling will require additional definitions in the code used to defined components. 
+- Even pooling requires knoledge of external libraries and will depend on external systems and connections are potencially high probability high impact risks. 

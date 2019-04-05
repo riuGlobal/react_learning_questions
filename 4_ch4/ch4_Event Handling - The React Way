@@ -1,0 +1,23 @@
+** Event Handling is declarative what does this mean?
+* It means that in react when describing the ui it also descrbes the event-handlers attached to the elements, so is simpler to check what event-handler is attached to what element of the ui. In contrast imperative code will require to go through the steps to find what step is attatching what event handler to what element. 
+ 
+** What is the ES2015 class style declaration
+* Is where you declare a class that extends the base react Component class. 
+
+**Auto bind. Will using createClass create a class with it context autobinded
+*Yes
+
+** What is an inline event handler
+* An event handler will fire a function. We can use a named function or we can use a syntax where we define the steps within the declaration of the event handler. Use for simple tasks.  
+
+** Theoretical question. Does React attach event handlers to the actual elements of the Browser DOM.
+* No, it does an internal mapping of functions. 
+
+**Syntetic events. Wrapper for native event isntances. Pourposes?
+* Consistent event interface and Information for propagation 
+
+** Problem of garbage collector and and performance.
+* Javascript cant run when Javascript is able to run. 
+
+** Event Pooling. Helps solving problem with garbage colector problem but properties are cleared when the synthetic event wrapper is moved back to the pool. Explain a possible issue.
+* Trying to acces the value of an event after the handler has finished running will fail since this value was on the wrapper that after the event handler has run will have been cleared. 

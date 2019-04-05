@@ -1,0 +1,31 @@
+** Is state the dynamic part of the component
+* Yes. Change them with setState function. 
+
+** Difference state vs properties
+* properties are passed from another component. 
+
+** Why do we set initial state, what happens if we dont?
+*  Not setting initial state will either fail or render something unexpected. 
+
+** Setting new (setState() ) state is actually a merge. Explain. 
+* when using the setState() function we are actually setting doing a merge, updating, adding values and keeping the old ones when there are no new ones defined. 
+
+** Use of setTimeout.
+* setTimeout canbe used to execute a function after x ms. I ve seen it used to make a sparkling button. 
+
+** changing the name of a component or a function ( functional component) might be useful. How can it be done? (hint on imports)
+* lets say i want render from reat-dom then to change its name i can write:
+import render as renderJSX from react-dom. This way i will user renderJSX as if it where render and I can define render it my component with no conflict. 
+
+** What is a functional componet.
+* A component that onnly renders JSX, it has no state and no lyfecycle methods. 
+
+** What is a pure function
+* a function that given the same arguments will always produce the same output. 
+
+
+
+
+
+
+

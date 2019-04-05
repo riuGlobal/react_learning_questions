@@ -1,0 +1,30 @@
+**Monolithic components make it EASY to coordinate team development**
+No, actualy it makes it difficult
+
+**&nbsp what is this used for**
+Non breaking space. It introduces space to be able to write to new line 
+
+**You encounter #10007. I dont wxpect you to know it by heart but where would you look for to know its meaning.**
+I would look for it on html documentation
+
+**Actions to refactor a monolithic into something more maintenable, what are some common actions?**
+
+Split it into components and make some components functional
+
+**Is Using funcitonal componets more efficient**  
+Yes
+
+**A generic pattern to composing React componets has how many levels of component composition**
+A common patter has three: Container components, item detail component, list componet. Sometimes four layers. 
+
+**Monolithic components that are focused on a feature, are of great or little use elsewhere in the application**
+Little use. 
+
+**True or false. Do monolithic componets deal with state and this makes them difficult to be used elsewhere**
+True. This characteristic of dealing with state is named *STATEFUL*
+
+
+
+
+
+
