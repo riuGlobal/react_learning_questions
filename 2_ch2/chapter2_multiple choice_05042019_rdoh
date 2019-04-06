@@ -1,0 +1,68 @@
+
+-- Rendering is an essential function in React. The render function takes a)___ as first input and renders it on the b)____ passed as the second argument.
+
+
+- a) HTML,b) React node server 
+- a) XML, b) Apache server
+- a) FXML, b) Tomcat node
+* a) JSX, b) DOM node
+
+--JSX is declarative meaning: JSX specifies a)______ and _b)_______
+
+* a) what to render  b) how to render
+- a) what to render b) NOT how to render
+
+-- Does React comes with HTML components?
+* Yes
+- No
+
+
+-- HTML tag conventions. For html tags in JSX do we use lowercase or uppercase? and not doing so will fail or log a warning ?
+* lowercase, not doing so results in warning
+- lowercase, not doing so straigth up fails
+- uppercase, not doing so results in warning
+- uppercase, not doing so straigth up fails
+
+
+
+-- Is there property validation by default? and will passing an unknown property will fail or log a warning ?
+
+- There is property validation and rendering will log a warning
+- There is property validation and rendering will fail
+* There is NO property validation and rendering will log a warning
+- There is NO property validation and rendering will fail
+
+
+-- An optional way to use components is called _________. This is used to explicitly show that a component is part of another. For example MyComponent.First  will indicate First is part of MyComponent. 
+
+* namespacing
+- abstraction
+- inheritance
+- extending
+
+
+--Does JSX let us embbed JavaScript
+*Yes
+-No
+
+-- Identify array mapping and object mapping. For rendering many times, arrays an objects should be map to lists. Read code a) and b) and answer which one is mapping an array to a list and which is mapping an object to a list? In both cases the variable to map is named colection. 
+
+
+a)
+<ul>
+{collection.map(i => (
+<li key={i}>{i}</li>
+))}
+</ul>
+
+b)
+
+{Collection.keys(collection).map(i => (
+<li key={i}>
+{i}:{collection[i]}
+</li>
+))}
+
+* a ) array b) object
+- a) object b) array
+- none can be used to map collections. 
