@@ -1,0 +1,52 @@
+$CORRECT
+** React one line description 
+*A JavaScript for building user interfaces. 
+
+$CORRECT
+** Is React a mega framework 
+*No
+
+$CORRECT
+** Is React a full stack solution
+*No
+
+$CORRECT
+** Whats the advantage of a small API over a large framework
+
+*There is more time for familiarizing and experimenting with an small API as opposed 
+
+$CORRECT
+** React Apis
+
+* React DOM and React component
+
+$CORRECT
+** React components areas
+
+* Data , Lifecycle, Events, JSX
+
+$CORRECT
+** Do components mix mark up with JavaScript
+*  Yes
+
+$CORRECT
+** Imperative programming and declarative programming. 
+* Imperative programming is a programming paradigme that involves steps as opposed 
+to declarative programming that is descriptive. 
+
+$CORRECT 
+** Performance problem in declarative approach.
+
+* re-render is not efficient.
+
+$CORRECT
+** Virtual DOM, diffing patching
+
+React keeps a Virtual Dom that uses to compare it to the DOM. Then it checks for changes. ( this
+is diffing) React makes the operations needed to render the changes to the real DOM (this is 
+partching)
+
+$CORRECT
+** Abstraction.   
+
+What I find the most interesting in React is its design where we have components that React will render anywhere: web, app, desktop. 
