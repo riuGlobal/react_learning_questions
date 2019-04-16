@@ -1,0 +1,41 @@
+{
+"chapter":9,
+"questions":[
+	{"question":"what library of react do we use for routing and what components",
+	"answer": "the react-router library and from there the components Router and Route"
+	},
+	{
+	"question":"What means to decouple route declarations in React" ,
+	"answer":"In react means to declare routes in components."
+	},
+	{
+	"question":"in the path defined path/:id where would id be available" ,
+	"answer":"in the params property"
+	},
+	{
+	"question":"what does +id do?" ,
+	"answer":"cast id to a number value"
+	},
+	{
+	"question":"when defining path= path/(:desc), how is desc bieng defined there", 
+	"answer":"as an optional value that might be defined in the url"
+	},
+	{
+	"question":"what does !!(variable) will return if variable=9" ,
+	"answer":"true, ! denies a truthy value and return false and then reversing it will get true"
+	},
+	{
+	"question":"What is the Link component used for" ,
+	"answer":"equivalen to a. Is to set links. "
+	},
+	{
+	"question":"what is the diference between a url parameter and a query parameter" ,
+	"answer":"/url_parameter and /?query)parameter=value, the first is a url_parameter with the value url_parameter and the second is a query parameter with the value value"
+	},
+	{
+	"question":"What is lazy routing" ,
+	"answer":"Avoid loading all routes by loading them gradually as the user interact with the components. "
+	}
+]
+
+}
